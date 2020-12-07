@@ -9,6 +9,8 @@ public class Main {
         for (int c=30; c<40; c++){
             s = s + c;
         }
-        System.out.println(s);
+        sum_storage S1 = new sum_storage(s);
+        int output = S1.getSs();
+        System.out.println(output);
     }
 }
